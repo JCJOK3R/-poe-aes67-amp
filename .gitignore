@@ -1,0 +1,6 @@
+*-backups/
+*.000
+*.bak
+_autosave*
+fp-info-cache
+*.lock
