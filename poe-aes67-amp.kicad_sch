@@ -188,6 +188,106 @@
 				(justify left top)
 			)
 		)
+		(pin "BUCK_A_EN" output
+			(at 59.69 50.8 270)
+			(uuid "86c44f12-f7ee-4a3e-9853-18c0744d69b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_ACT" output
+			(at 57.15 50.8 270)
+			(uuid "76090a7e-1abb-44a6-84f1-29b9efbd9457")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI1_N" output
+			(at 54.61 50.8 270)
+			(uuid "4f29c88f-9161-437c-b87e-da1cd4e3efbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI1_P" output
+			(at 52.07 50.8 270)
+			(uuid "0dc7099e-577a-4634-8bbf-82db7df52954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI2_N" output
+			(at 49.53 50.8 270)
+			(uuid "e624988c-3088-4f1e-9611-4d7c575801d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI2_P" output
+			(at 46.99 50.8 270)
+			(uuid "f6e74e31-d018-41a7-b799-9d6792d34be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI3_N" output
+			(at 44.45 50.8 270)
+			(uuid "fe6c25c9-b9f6-4d67-bf30-dcbed927d1a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI3_P" output
+			(at 41.91 50.8 270)
+			(uuid "80f95060-9a94-4628-8a90-e892af1e38f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI4_N" output
+			(at 39.37 50.8 270)
+			(uuid "90dbec05-afc5-43ec-8b08-2b4e2f5e4532")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI4_P" output
+			(at 36.83 50.8 270)
+			(uuid "ab23ea12-836a-4609-ac6c-bf72e6686198")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5"
