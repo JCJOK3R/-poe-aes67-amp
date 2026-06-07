@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "poe-aes67-amp"
+    ]
   },
   "meta": {
     "filename": "poe-aes67-amp.kicad_pro",
@@ -648,7 +650,7 @@
         "uuid": "342711d1-e6c4-426d-85fd-6094774cf2a5"
       }
     ],
-    "used_designators": "U1-5,L1,D1,#PWR4-12,C5-9,#FLG1-4,R3-13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
