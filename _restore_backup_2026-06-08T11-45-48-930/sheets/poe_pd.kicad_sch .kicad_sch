@@ -3544,6 +3544,12 @@
 		(uuid "e63f5ed4-800a-4e3b-a7c7-64244d7c5f66")
 	)
 	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9a77d8a-281a-44ca-b4cf-e442470f5908")
+	)
+	(junction
 		(at 187.96 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7779,6 +7785,84 @@
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/693c70d2-0654-43ac-9c2d-6cfb6d40fe72"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e81f63dc-1672-4fe9-852a-dea6edb6f567")
+		(property "Reference" "#FLG02"
+			(at 113.03 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.03 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbc73b97-4d6d-431e-8864-4da81843d2ae")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/693c70d2-0654-43ac-9c2d-6cfb6d40fe72"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
