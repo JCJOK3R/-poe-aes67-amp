@@ -12,6 +12,36 @@
 		(comment 1 "CERN-OHL-S v2")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 110.49 59.69) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bafc33-6329-4a47-895b-a7074453fdc6")
+	)
+	(wire
+		(pts
+			(xy 59.69 50.8) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c295919-a461-4f75-b6ee-ec2d1d913bba")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e8c53c-4bdf-4f53-8577-ca5bd79260fa")
+	)
 	(sheet
 		(at 73.66 26.67)
 		(size 40.64 24.13)
@@ -48,6 +78,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BUCK_A_EN" input
+			(at 110.49 50.8 270)
+			(uuid "ee3821a8-0c35-437f-ada8-46a97a176e96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

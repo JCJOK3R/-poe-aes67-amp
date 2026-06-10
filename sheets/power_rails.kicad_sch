@@ -2440,7 +2440,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 2.54 0)
 					(length 0)
 					(name "VPOE"
@@ -6158,10 +6158,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8a20559-f06a-441c-8368-5484a7875186")
+			(uuid "d8a20559-f06a-441c-8368-5484a7875187")
 		)
 		(pin "2"
-			(uuid "fef35a0d-2cf4-48ec-b928-9bced3152086")
+			(uuid "fef35a0d-2cf4-48ec-b928-9bced3152087")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -8244,10 +8244,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b70bf28-7fb0-4f25-bafa-781be8ffd5d8")
+			(uuid "1b70bf28-7fb0-4f25-bafa-781be8ffd5d9")
 		)
 		(pin "2"
-			(uuid "1225b3e7-e8bc-458c-8aba-74b4c575cec1")
+			(uuid "1225b3e7-e8bc-458c-8aba-74b4c575cec2")
 		)
 		(instances
 			(project "poe-aes67-amp"

@@ -2767,7 +2767,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 2.54 0)
 					(length 0)
 					(name "VPOE"
@@ -3344,12 +3344,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a663bb4-2714-47fc-8de9-81ba516c8584")
 	)
 	(junction
 		(at 139.7 55.88)
@@ -7461,84 +7455,6 @@
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/693c70d2-0654-43ac-9c2d-6cfb6d40fe72"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 153.67 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c74968c8-4eee-40ba-a241-cc09a859ecaf")
-		(property "Reference" "#FLG01"
-			(at 153.67 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 153.67 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9145c98a-f1e3-4af7-973b-45f45e4e4de5")
-		)
-		(instances
-			(project "poe-aes67-amp"
-				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/693c70d2-0654-43ac-9c2d-6cfb6d40fe72"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
