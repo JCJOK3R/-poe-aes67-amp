@@ -2622,6 +2622,12 @@
 		(uuid "220cdf1f-3fb1-4f42-815f-9c36d012fc6d")
 	)
 	(junction
+		(at 55.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24f22091-6101-4a85-8bc2-c44cd6c1bae7")
+	)
+	(junction
 		(at 62.23 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2826,6 +2832,12 @@
 		(uuid "c8c65fd0-a2c3-4449-adc0-1d3fcc160813")
 	)
 	(junction
+		(at 55.88 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d51a188a-1369-46e0-8921-5e8ebbb6af41")
+	)
+	(junction
 		(at 124.46 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2854,6 +2866,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e987188c-cc95-4a3a-9c0a-cb6752b229d9")
+	)
+	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3e3e4a5-d422-4bb3-8776-11bd9c9a3adf")
 	)
 	(junction
 		(at 124.46 147.32)
@@ -2919,13 +2937,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 124.46 101.6)
+			(xy 124.46 101.6) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a63a503-41a8-40a6-8c4e-4156b51c8596")
+	)
+	(wire
+		(pts
+			(xy 55.88 142.24) (xy 55.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b554fbb-34a1-4fd2-a3dc-8331735aee73")
 	)
 	(wire
 		(pts
@@ -2976,16 +3004,6 @@
 			(type default)
 		)
 		(uuid "172fcd42-6095-45fd-9b41-fbd917de272f")
-	)
-	(wire
-		(pts
-			(xy 44.45 139.7) (xy 63.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20fe0f34-39e0-4e7c-8b07-09384455e3db")
 	)
 	(wire
 		(pts
@@ -3499,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 139.7) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a215743-61cc-4ef3-a43e-03a501c0502d")
+	)
+	(wire
+		(pts
 			(xy 124.46 128.27) (xy 128.27 128.27)
 		)
 		(stroke
@@ -3649,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 142.24) (xy 63.5 142.24)
+			(xy 44.45 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3819,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9481f3-b6c9-4de2-9f2a-e3c517fca552")
+	)
+	(wire
+		(pts
 			(xy 55.796 58.42) (xy 63.5 58.42)
 		)
 		(stroke
@@ -3926,6 +3964,16 @@
 			(type default)
 		)
 		(uuid "f47ca690-f055-46a1-9029-7591caa13d20")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6414785-d5d2-4e5e-b1b6-207d73e79de0")
 	)
 	(wire
 		(pts
@@ -4098,7 +4146,7 @@
 		(uuid "b2fab559-144b-4b88-a800-fb6a8f279bc2")
 	)
 	(label "AMP_RESET (Input)"
-		(at 44.45 139.7 0)
+		(at 35.56 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4108,12 +4156,12 @@
 		(uuid "db45e817-cd18-425a-bef0-a8b3b4d4ca42")
 	)
 	(label "AMP_MUTE (Input)"
-		(at 44.45 142.24 0)
+		(at 44.45 142.24 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e5e573db-59b6-484d-9ace-fcbbca40e109")
 	)
@@ -5529,10 +5577,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e924a59d-031e-4d51-8b03-3fa83966e06b")
+			(uuid "e924a59d-031e-4d51-8b03-3fa83966e06c")
 		)
 		(pin "1"
-			(uuid "aac7183d-5ef2-4a85-ac00-8231a6ed859a")
+			(uuid "aac7183d-5ef2-4a85-ac00-8231a6ed859b")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -5704,6 +5752,88 @@
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "521af72a-0b25-4d1e-8e49-b7418105b642")
+		(property "Reference" "R34"
+			(at 38.1 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 38.1 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.782 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "761506e8-5a63-4424-9789-6d4003d86497")
+		)
+		(pin "2"
+			(uuid "0810e80a-d678-4666-9f2e-d7bfdcd6aa05")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5932,10 +6062,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec38")
+			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec39")
 		)
 		(pin "1"
-			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94a")
+			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94b")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -6091,10 +6221,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dac6cbad-2bd8-4ad6-9198-fd4369f99fda")
+			(uuid "dac6cbad-2bd8-4ad6-9198-fd4369f99fdb")
 		)
 		(pin "1"
-			(uuid "2b564a3e-a4ba-4822-9f7a-71efe1bfd1c3")
+			(uuid "2b564a3e-a4ba-4822-9f7a-71efe1bfd1c4")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -6180,6 +6310,84 @@
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa2a593-ca7e-4f12-b5a5-dabb5de5f476")
+		(property "Reference" "#PWR046"
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b683ca5-0320-4293-bfe2-01eac44c2544")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6273,7 +6481,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73f9d429-83b8-4088-b386-e6af09af7f37")
 		(property "Reference" "#PWR040"
 			(at 57.15 137.16 0)
@@ -6287,7 +6494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 137.1599 90)
+			(at 57.912 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6408,10 +6615,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "28b2f5b5-f51a-46eb-9619-619e352263cc")
+			(uuid "28b2f5b5-f51a-46eb-9619-619e352263cd")
 		)
 		(pin "2"
-			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40b")
+			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40c")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -6503,6 +6710,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 35.56 147.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3543b7-42e3-4c06-a9b8-fe73deecb4fe")
+		(property "Reference" "#PWR045"
+			(at 35.56 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 35.56 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 35.56 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e013ec50-7bfb-4887-9963-10d1deac121c")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3a632d-8ac7-4888-841f-3fab2b8e8619")
+		(property "Reference" "R36"
+			(at 146.05 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 98.298 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d19a518-e3af-4d32-b1b7-290eb752c452")
+		)
+		(pin "2"
+			(uuid "9e745222-23cf-4f95-ab8f-f0f5db1367bb")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 158.75 66.04 90)
 		(unit 1)
@@ -6568,10 +6933,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec38")
+			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec3a")
 		)
 		(pin "1"
-			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94a")
+			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94c")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -6904,6 +7269,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 59.69 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f30d99a-92d4-4e39-8a5e-ad72a6f39f2d")
+		(property "Reference" "R37"
+			(at 59.69 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.69 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 144.018 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5424ffdb-efd8-4b61-87c1-39ed00a164de")
+		)
+		(pin "2"
+			(uuid "4d39e8de-3ef2-4bda-a0ab-e410180757c4")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 68.58 0)
 		(unit 1)
@@ -7212,6 +7657,88 @@
 			(project "poe-aes67-amp"
 				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7eddee9-4fef-4300-9d89-ecf657fb7b19")
+		(property "Reference" "R35"
+			(at 157.48 99.0601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 96.5201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.798 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cef99f8a-bfd6-4251-9e37-43367250d781")
+		)
+		(pin "2"
+			(uuid "da7f0a35-b252-4c0f-b2bf-f95ac8922f31")
+		)
+		(instances
+			(project "poe-aes67-amp"
+				(path "/342711d1-e6c4-426d-85fd-6094774cf2a5/c2072391-703b-4af3-aafc-be0e2f47c1f2"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7909,10 +8436,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423b9f")
+			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423ba0")
 		)
 		(pin "1"
-			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b1")
+			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b2")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -8384,10 +8911,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "28b2f5b5-f51a-46eb-9619-619e352263cc")
+			(uuid "28b2f5b5-f51a-46eb-9619-619e352263ce")
 		)
 		(pin "2"
-			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40b")
+			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40d")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -8541,10 +9068,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "28b2f5b5-f51a-46eb-9619-619e352263cc")
+			(uuid "28b2f5b5-f51a-46eb-9619-619e352263cf")
 		)
 		(pin "2"
-			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40b")
+			(uuid "3d3f16d7-13d5-4396-8eac-3e76b583d40e")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -8780,10 +9307,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423b9f")
+			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423ba1")
 		)
 		(pin "1"
-			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b1")
+			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b3")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -8939,10 +9466,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec38")
+			(uuid "dc2d6ad1-387f-42ca-98a4-53724811ec3b")
 		)
 		(pin "1"
-			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94a")
+			(uuid "6252d297-351c-43a6-9a06-a95ae7f8c94d")
 		)
 		(instances
 			(project "poe-aes67-amp"
@@ -9334,10 +9861,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423b9f")
+			(uuid "6020a7dc-0e11-410c-abf3-1e06d9423ba2")
 		)
 		(pin "1"
-			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b1")
+			(uuid "16b93d33-1516-4daf-9a2e-d687a8b188b4")
 		)
 		(instances
 			(project "poe-aes67-amp"
